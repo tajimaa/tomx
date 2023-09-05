@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<web-app>
+    <servlet>
+        <servlet-name>myservlet</servlet-name>
+        <servlet-class>ttc.MyServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>myservlet</servlet-name>
+        <url-pattern>/myservlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>myservlet2</servlet-name>
+        <servlet-class>ttc.MyServlet2</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>myservlet2</servlet-name>
+        <url-pattern>/myservlet2</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>myservlet3</servlet-name>
+        <servlet-class>ttttt.uuu.ttc.teee.ertete.MyServlet2</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>myservlet3</servlet-name>
+        <url-pattern>/myservlet3</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>testbbs</servlet-name>
+        <servlet-class>ttc.TestBBS</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>testbbs</servlet-name>
+        <url-pattern>/testbbs</url-pattern>
+    </servlet-mapping>
+</web-app>
